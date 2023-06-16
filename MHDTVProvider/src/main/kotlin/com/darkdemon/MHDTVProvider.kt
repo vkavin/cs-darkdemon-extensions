@@ -22,21 +22,21 @@ class MHDTVProvider : MainAPI() { // all providers must be an instance of MainAP
     )
 
     override val mainPage = mainPageOf(
-        "$mainUrl/channel/sports" to "Sports",
-        "$mainUrl/channel/english" to "English",
-        "$mainUrl/channel/hindi" to "Hindi",
-        "$mainUrl/channel/marathi" to "Marathi",
-        "$mainUrl/channel/tamil" to "Tamil",
-        "$mainUrl/channel/telugu" to "Telugu",
-        "$mainUrl/channel/malayalam" to "Malayalam",
-        "$mainUrl/channel/malayalam-news" to "Malayalam News",
-        "$mainUrl/channel/kannada" to "Kannada",
-        "$mainUrl/channel/punjabi" to "Punjabi",
-        "$mainUrl/channel/bangla" to "Bangla",
-        "$mainUrl/channel/hindi-movies" to "Hindi Movies",
-        "$mainUrl/channel/malayalam-movies" to "Malayalam Movies",
-        "$mainUrl/channel/pakistani" to "Pakistani TV",
-        "$mainUrl/channel/z5/" to "Zee5",
+        "$mainUrl/channel/sports/page/" to "Sports",
+        "$mainUrl/channel/english/page/" to "English",
+        "$mainUrl/channel/hindi/page/" to "Hindi",
+        "$mainUrl/channel/marathi/page/" to "Marathi",
+        "$mainUrl/channel/tamil/page/" to "Tamil",
+        "$mainUrl/channel/telugu/page/" to "Telugu",
+        "$mainUrl/channel/malayalam/page/" to "Malayalam",
+        "$mainUrl/channel/malayalam-news/page/" to "Malayalam News",
+        "$mainUrl/channel/kannada/page/" to "Kannada",
+        "$mainUrl/channel/punjabi/page/" to "Punjabi",
+        "$mainUrl/channel/bangla/page/" to "Bangla",
+        "$mainUrl/channel/hindi-movies/page/" to "Hindi Movies",
+        "$mainUrl/channel/malayalam-movies/page/" to "Malayalam Movies",
+        "$mainUrl/channel/pakistani/page/" to "Pakistani TV",
+        "$mainUrl/channel/z5/page" to "Zee5",
     )
 
     val interceptor = CloudflareKiller()
