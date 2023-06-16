@@ -1,6 +1,6 @@
 <div align="center">
 
-# *Darkdemon-Extension*
+# _Darkdemon-Extension_
 
 > Used to load providers for [Cloudstream](https://github.com/recloudstream/cloudstream)
 
@@ -36,7 +36,7 @@
 
 # ❤️ Used By :
 
-<a href="https://cloudstream.cf/"><img src="https://img.shields.io/badge/CloudStream-FF0000?style=flat&logo=kotlin&logoColor=black"></a>
+<a href="https://recloudstream.github.io"><img src="https://img.shields.io/badge/CloudStream-FF0000?style=flat&logo=kotlin&logoColor=black"></a>
 
 ##
 
