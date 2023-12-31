@@ -23,19 +23,8 @@ class MHDTVProvider : MainAPI() { // all providers must be an instance of MainAP
 
     override val mainPage = mainPageOf(
         "$mainUrl/channel/sports/page/" to "Sports",
-        "$mainUrl/channel/english/page/" to "English",
-        "$mainUrl/channel/hindi/page/" to "Hindi",
-        "$mainUrl/channel/marathi/page/" to "Marathi",
-        "$mainUrl/channel/tamil/page/" to "Tamil",
-        "$mainUrl/channel/telugu/page/" to "Telugu",
-        "$mainUrl/channel/malayalam/page/" to "Malayalam",
-        "$mainUrl/channel/malayalam-news/page/" to "Malayalam News",
-        "$mainUrl/channel/kannada/page/" to "Kannada",
-        "$mainUrl/channel/punjabi/page/" to "Punjabi",
-        "$mainUrl/channel/bangla/page/" to "Bangla",
-        "$mainUrl/channel/hindi-movies/page/" to "Hindi Movies",
-        "$mainUrl/channel/malayalam-movies/page/" to "Malayalam Movies",
-        "$mainUrl/channel/pakistani/page/" to "Pakistani TV",
+        "$mainUrl/channel/english/page/" to "English",       
+        "$mainUrl/channel/tamil/" to "Tamil",       
         "$mainUrl/channel/z5/page" to "Zee5",
     )
 
