@@ -145,7 +145,7 @@ class MHDTVProvider : MainAPI() { // all providers must be an instance of MainAP
     ): Boolean {
 
         val document = app.get(url = data, referer = "$mainUrl/").document
-        if (data.startsWith("https://mhdtvworld.me/jwplayer/")) {
+        if (data.startsWith("https://mhdtvplay.net/jwplayer/")) {
 
             val decoded = decode(data)
             val source = decoded.substringAfter("source=").substringBefore("&id")
