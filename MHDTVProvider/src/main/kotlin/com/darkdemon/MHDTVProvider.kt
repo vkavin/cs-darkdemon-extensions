@@ -12,7 +12,7 @@ import org.jsoup.nodes.Element
 import kotlin.math.floor
 
 class MHDTVProvider : MainAPI() { // all providers must be an instance of MainAPI
-    override var mainUrl = "https://mhdtvworld.me"
+    override var mainUrl = "https://mhdtvplay.net"
     override var name = "MHDTVWorld"
     override val hasMainPage = true
     override var lang = "hi"
@@ -159,7 +159,7 @@ class MHDTVProvider : MainAPI() { // all providers must be an instance of MainAP
                     isM3u8 = true,
                 )
             )
-        } else if (data.startsWith("https://mhdtvworld.me/delta") || data.startsWith("https://yuppstream.net.in/")) {
+        } else if (data.startsWith("https://mhdtvplay.net/delta") || data.startsWith("https://yuppstream.net.in/")) {
             val srcRegex = Regex("""hls: '(.*?.)',""")
             val regexMatch =
                 srcRegex.find(document.toString())?.groupValues?.getOrNull(1).toString()
