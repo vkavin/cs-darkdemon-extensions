@@ -2,7 +2,7 @@
 	"name": "Darkdemon Providers Repository",
 	"description": "ßIndian language Providers",
 	"manifestVersion": 1,
-	"pluginLists": [
-		"https://raw.githubusercontent.com/ashwamegh/cs-darkdemon-extensions/builds/plugins.json"
+	"pluginLists": [		
+		"https://raw.githubusercontent.com/vkavin/cs-darkdemon-extensions/builds/plugins.json"
 	]
 }
