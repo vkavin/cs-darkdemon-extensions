@@ -176,7 +176,7 @@ class MHDTVProvider : MainAPI() { // all providers must be an instance of MainAP
                 quality = Qualities.Unknown.value,
                 isM3u8 = true,
             )
-        } else if (data.startsWith("https://tvstream.fun") || data.startsWith("https://tvworld.fun/") || data.startsWith(
+        } else if (data.startsWith("https://tvstream.fun") || data.startsWith("https://supermaxtv.fun/") || data.startsWith("https://tvworld.fun/") || data.startsWith(
                 "https://tv.googledrivelinks.com/"
             )
         ) {
